@@ -25,6 +25,8 @@ print ("enc.feature_indices_ is:",enc.feature_indices_)
 print (enc.transform([[0, 1, 1]]).toarray())
 print (enc.transform([[0, 1, 1]]))
 #[[ 1.  0.  0.  1.  0.  0.  1.  0.  0.]]
+以上的列数 9=2+3+4 然后取1的位置
+就是表示的值
 
 '''
 (0, 6)        1.0
